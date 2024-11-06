@@ -1,0 +1,100 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#about {background-color: #f4f4f4;
+padding: 20px;
+margin: 20px 0;
+}
+
+#about h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#about p {
+  font-size: 16px;
+  color: #666;
+}
+#contact {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#blog {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#blog h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#blog article {
+    margin-bottom: 20px;
+}
+
+#blog article h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+#blog article p {
+    font-size: 16px;
+    color: #666;
+}
